@@ -3,10 +3,9 @@
 # each returns original collect returs nil 
 
 def reverse_each_word(sentence)
-  sentence.split.join
+  sentence.reverse 
   
   end
-  sentence
 end
 
 # def reverse_each_word(sentence)
