@@ -3,7 +3,7 @@
 # each returns original collect returs nil 
 
 def reverse_each_word(sentence)
-  sentence.reverse.split.each do |word|
+  sentence.reverse.join
   
   end
   sentence
