@@ -4,7 +4,7 @@
 
 def reverse_each_word(sentence)
   new_arry = []
-  sentence1.each do |word|
+  sentence.reverse.split.each do |word|
   new_arry << "#{word} "  
   
   end
