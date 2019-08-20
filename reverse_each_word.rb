@@ -3,8 +3,9 @@
 # each returns original collect returs nil 
 
 def reverse_each_word(sentence)
-  sentence.reverse
-  
+  sentence.reverse.each do |word|
+    puts "#{word}"
+  end
   end
 
 # def reverse_each_word(sentence)
