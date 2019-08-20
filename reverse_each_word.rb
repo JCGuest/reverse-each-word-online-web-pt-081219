@@ -3,7 +3,7 @@
 # each returns original collect returs nil 
 
 def reverse_each_word(sentence1)
-  new_arry = w%[]
+  new_arry = []
   sentence1.each do |word|
   new_arry << "#{word.reverse}  " 
   end
