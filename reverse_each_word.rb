@@ -9,4 +9,5 @@ end
 
 
 def reverse_each_word(sentence)
-  sentence.reverse.collect 
+  sentence.split.collect {|word| word.reverse}.join(" ")
+end
