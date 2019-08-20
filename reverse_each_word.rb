@@ -5,6 +5,6 @@
 def reverse_each_word()
   new_arry = []
   sentence1.each do |word|
-  new_arry << "#{word.reverse}  " 
+  new_arry << "#{word}  " 
   end
 end
